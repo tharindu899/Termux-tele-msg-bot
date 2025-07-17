@@ -24,6 +24,10 @@ pip install -r requirements.txt
 
 ### 3. Configure Environment
 Create `.env` file with:
+
+```bash
+nano .env
+``
 ```env
 TG_BOT_TOKEN="YOUR_BOT_TOKEN"
 TG_CHAT_ID="TARGET_CHAT_ID"
@@ -35,6 +39,10 @@ WEBSITE_URL="https://your-website.com"
 
 ### 4. Create Message File (`message.txt`)
 Use special directives and message content:
+
+```bash
+bash message.txt
+```
 ```text
 #format=html
 #photo=./banner.jpg
@@ -74,15 +82,6 @@ New update is live!
 ```markdown
 *Bold*, _Italic_, __Underline__
 [Link](https://example.com)
-```
-
-## 🖼️ Button Configuration
-Buttons are automatically generated from `.env`:
-```env
-OWNER_USERNAME="@admin"
-UPDATE_CHANNEL="@news"
-GROUP_CHAT_ID="-100123456"
-WEBSITE_URL="https://my-site.com"
 ```
 
 ## ▶️ Running the Script
