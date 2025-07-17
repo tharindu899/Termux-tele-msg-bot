@@ -41,7 +41,7 @@ WEBSITE_URL="https://your-website.com"
 Use special directives and message content:
 
 ```bash
-bash message.txt
+nano message.txt
 ```
 ```text
 #format=html
@@ -113,4 +113,4 @@ chmod +x sender.py
 
 ## 📄 License
 MIT License - See [LICENSE](LICENSE) file
-```
+___
